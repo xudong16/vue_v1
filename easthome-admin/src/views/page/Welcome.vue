@@ -15,11 +15,11 @@ div {
     background-image: url(~@/assets/welcome.jpg);
     background-size: cover;
     background-position: center; /* 新增代码 */
-    height: 100vh;
-    font: bold 100px "华文行楷";
-    color: #000000;
+    height: 90vh;
+    font: bold 80px "华文行楷";
+    color: #ffffff;
     text-align: center;
-    line-height: 200px;
+    line-height: 100px;
 }
 
 </style>
