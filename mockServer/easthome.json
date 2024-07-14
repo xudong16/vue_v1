@@ -87,6 +87,14 @@
       "mobile": "145141919810",
       "gender": "1",
       "id": 13
+    },
+    {
+      "username": "  ",
+      "nickName": "测试账号",
+      "password": " ",
+      "mobile": "1",
+      "gender": "3",
+      "id": 14
     }
   ],
   "courses": [
