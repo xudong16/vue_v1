@@ -177,6 +177,9 @@ export default {
                 logo: [
                     { required: true, message: '请上传主图照片', trigger: 'blur' }
                 ],
+                tag: [
+                    { required: true, message: '标签不能为空', trigger: 'blur' }
+                ],
                 hours: [
                     { required: true, message: '培训课时不能为空', trigger: 'blur' }
                 ],
@@ -239,6 +242,7 @@ export default {
                             this.$router.push({ name: 'Course' });
                         });
                     } else {
+                        console.log(this.course);
                         this.$axios.post('/courses', this.course).then(response => {
                             // 提示用户
                             this.$message.success('新增成功');

@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- 头部 -->
-        <el-page-header @back="() => this.$router.back()" :content="course.courseName">
+        <el-page-header @back="() => this.$router.push({ name: 'Course' })" :content="course.courseName">
         </el-page-header>
         <!-- 添加章节按钮 -->
         <div class="add-btn">
@@ -57,7 +57,7 @@ export default {
       if (id) {
         this.$router.push({ name: "ChapterAddUpdate", params: { id } });
       } else {
-        this.$router.push({ name: "ChapterAddUpdate" });
+        this.$router.push({ name: "ChapterAddUpdate", params: { courseId: this.course.id } });
       }
     },
         deleteChapter(id) {

@@ -27,7 +27,7 @@
                 <div class="introC">
                     <img class="image" src="@/assets/main/user.png">
                 </div>
-                <div class="introD-btn">登录/注册</div>
+                <div class="introD-btn" @click="jumpToLogin">后台管理系统</div>
             </div>
         </el-card>
     </div>
@@ -35,7 +35,12 @@
 
 <script>
 export default {
-
+    methods: {
+    jumpToLogin() {
+        // 在Vue组件中
+        window.location.href = 'http://localhost:8001/Login';
+    }
+}
 }
 </script>
 

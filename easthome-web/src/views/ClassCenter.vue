@@ -95,36 +95,42 @@ export default {
     },
     methods: {
         selectLink(type, name, index) {
-            if (type == 'dir') {
-                this.dirActiveIndex = index;
-                this.techActiveIndex = 0;
-                this.wayActiveIndex = 0;
-                this.search = {
-                    direction: name == '全部' ? undefined : name,
-                    technology: undefined,
-                    way: undefined
-                };
-            } else if (type == 'tech') {
-                this.dirActiveIndex = 0;
-                this.techActiveIndex = index;
-                this.wayActiveIndex = 0;
-                this.search = {
-                    direction: undefined,
-                    technology: name == '全部' ? undefined : name,
-                    way: undefined
-                };
-            } else if (type == 'way') {
-                this.dirActiveIndex = 0;
-                this.techActiveIndex = 0;
-                this.wayActiveIndex = index;
-                this.search = {
-                    direction: undefined,
-                    technology: undefined,
-                    way: name == '全部' ? undefined : name
-                };
-            }
-            this.queryCourse();
-        },
+      if (type == 'dir') {
+        this.dirActiveIndex = index;
+        if (name === '全部') {
+          this.search.direction = undefined;
+        //   this.techActiveIndex = 0;
+        //   this.wayActiveIndex = 0;
+          this.search.technology = undefined;
+          this.search.way = undefined;
+        } else {
+          this.search.direction = name;
+        }
+      } else if (type == 'tech') {
+        this.techActiveIndex = index;
+        if (name === '全部') {
+          this.search.technology = undefined;
+        //   this.dirActiveIndex = 0;
+        //   this.wayActiveIndex = 0;
+          this.search.direction = undefined;
+          this.search.way = undefined;
+        } else {
+          this.search.technology = name;
+        }
+      } else if (type == 'way') {
+        this.wayActiveIndex = index;
+        if (name === '全部') {
+          this.search.way = undefined;
+        //   this.dirActiveIndex = 0;
+        //   this.techActiveIndex = 0;
+          this.search.direction = undefined;
+          this.search.technology = undefined;
+        } else {
+          this.search.way = name;
+        }
+      }
+      this.queryCourse();
+    },
         handleCurrentChange(page) {
             this.pageData.current = page;
             this.queryCourse();

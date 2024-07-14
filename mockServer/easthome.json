@@ -87,14 +87,6 @@
       "mobile": "145141919810",
       "gender": "1",
       "id": 13
-    },
-    {
-      "username": "  ",
-      "nickName": "测试账号",
-      "password": " ",
-      "mobile": "1",
-      "gender": "3",
-      "id": 14
     }
   ],
   "courses": [
@@ -190,7 +182,7 @@
         "13.png"
       ],
       "sortNum": 2,
-      "status": "1",
+      "status": "0",
       "id": 4
     },
     {
@@ -265,6 +257,22 @@
       "status": "1",
       "id": 7,
       "tag": "物联网"
+    },
+    {
+      "courseName": "test",
+      "direction": "IT管理",
+      "post": "技术经理",
+      "mode": "录播",
+      "hours": "3",
+      "startDate": "2024-07-22",
+      "intro": "1111",
+      "price": "1111",
+      "teacherName": "1111",
+      "teacherIntro": "1111",
+      "description": [],
+      "sortNum": 1,
+      "status": 0,
+      "id": 8
     }
   ],
   "chapters": [
@@ -274,28 +282,31 @@
       "description": "基础语法",
       "sortNum": 1,
       "courseId": 1,
-      "uploadUrl": "cd1033b8-a9e6-4d74-aa35-0a09541c3a5c.mp4"
+      "uploadUrl": "b8a0538f-ae3b-420e-a579-aa1f34b679d7.mp4"
     },
     {
       "id": 2,
       "chapterName": "Vuejs组件",
       "description": "组件组件组件",
       "sortNum": 2,
-      "courseId": 1
+      "courseId": 1,
+      "uploadUrl": "f65846fe-cc31-4095-93b0-e897aa0de686.mp4"
     },
     {
       "id": 3,
       "chapterName": "Vuejs路由",
       "description": "路由路由路由",
       "sortNum": 3,
-      "courseId": 1
+      "courseId": 1,
+      "uploadUrl": "43845604-2262-4536-9793-0e2c1fcf0f3c.mp4"
     },
     {
       "id": 4,
       "chapterName": "Nodejs",
       "description": "js开发环境",
       "sortNum": 4,
-      "courseId": 1
+      "courseId": 1,
+      "uploadUrl": "08f76a81-5725-4259-8479-5b65b91def5c.mp4"
     },
     {
       "id": 5,
@@ -594,6 +605,81 @@
       "sortNum": 1,
       "courseId": 7,
       "id": 48
+    },
+    {
+      "chapterName": "111",
+      "sortNum": 1,
+      "id": 49
+    },
+    {
+      "chapterName": "11111",
+      "description": "111",
+      "sortNum": 1,
+      "id": 50
+    },
+    {
+      "chapterName": "11111",
+      "description": "11111",
+      "sortNum": 1,
+      "id": 51
+    },
+    {
+      "chapterName": "111",
+      "description": "111",
+      "sortNum": 1,
+      "id": 52
+    },
+    {
+      "chapterName": "111",
+      "description": "111",
+      "sortNum": 1,
+      "id": 53
+    },
+    {
+      "chapterName": "名称",
+      "description": "描述",
+      "sortNum": 1,
+      "id": 54
+    },
+    {
+      "chapterName": "1111",
+      "description": "1111",
+      "sortNum": 1,
+      "id": 55
+    },
+    {
+      "chapterName": "nihapo",
+      "description": "22222",
+      "sortNum": 1,
+      "id": 56
+    },
+    {
+      "chapterName": "09876",
+      "description": "无",
+      "sortNum": 7,
+      "courseId": 1,
+      "id": 57
+    },
+    {
+      "chapterName": "1111112432",
+      "description": "23",
+      "sortNum": 1,
+      "courseId": 1,
+      "id": 58
+    },
+    {
+      "chapterName": "sdfbsdgba",
+      "description": "111ee1qdd1qd1q",
+      "sortNum": 1,
+      "courseId": 1,
+      "id": 59
+    },
+    {
+      "chapterName": "1qd",
+      "description": "qqwfqasfa",
+      "sortNum": 1,
+      "courseId": 1,
+      "id": 60
     }
   ]
 }

@@ -1,7 +1,7 @@
 <template>
     <div>
         <!-- 头部 -->
-        <el-page-header @back="() => this.$router.push({ name: 'Chapter', params: { courseName: this.course.courseName, courseId: this.course.id } })" :content="course.id ? '编辑章节' : '新增章节'">
+        <el-page-header @back="() => this.$router.push({ name: 'Chapter', params: { courseName: course.courseName, courseId: course.id } })" :content="course.id ? '编辑章节' : '新增章节'">
         </el-page-header>
         <!-- 表单 -->
         <el-form ref="form" :model="chapter" :rules="rules" label-width="80px">
@@ -51,7 +51,8 @@ export default {
         return {
             // 课程
             course: {
-
+              courseName: undefined,
+              id: undefined,
             },
         chapter: {
           id: undefined,
@@ -74,7 +75,6 @@ export default {
         // 单查数据回显课程
         getChapter(id) {
             this.$axios.get(`/chapters/${id}`).then(response => {
-                
                 this.chapter = response.data;
                this.$axios.get(`/courses/${this.chapter.courseId}`).then(response => {this.course = response.data});
                 // 回显图片: 手动维护fileList,在数组中添加一个模拟的文件对象
@@ -87,6 +87,10 @@ export default {
                     }
                 });
             });
+        },
+        getCourseName(id) {
+               this.$axios.get(`/courses/${id}`).then(response => {this.course.courseName = response.data.courseName});
+               console.log(this.course);
         },
         // 提交课程信息
         submitChapter() {   
@@ -102,11 +106,14 @@ export default {
                             this.$router.push({ name: "Chapter", params: { courseName: Name, courseId: Id } });
                         });
                     } else {
+                      this.chapter.courseId = this.course.id;
+                      Id = this.course.id;
                         this.$axios.post('/chapters', this.chapter).then(response => {
                             // 提示用户
                             this.$message.success('新增成功');
                             // 路由导航回列表页
-                            this.$router.push({ name: 'Chapter', params: { courseName,courseId }});
+                            console.log(Name, Id);
+                            this.$router.push({ name: "Chapter", params: { courseName: Name, courseId: Id } });
                         });
                     }
                 }
@@ -143,6 +150,10 @@ export default {
         if (this.chapter.id) {
             // 有值就是编辑
             this.getChapter(this.chapter.id);
+        }else{
+            // 无值就是新增
+            this.course.id = this.$route.params.courseId
+            this.getCourseName(this.course.id);
         }
     }
 };
