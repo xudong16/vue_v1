@@ -1,0 +1,5 @@
+/easthome-admin/node_modules/
+/easthome-web/node_modules/
+/easthome-admin/dist/
+/easthome-web/dist/
+/mockServer/node_modules/
