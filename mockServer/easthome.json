@@ -1,0 +1,591 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "nickName": "管理员",
+      "password": "123456",
+      "mobile": "13311112222",
+      "gender": "3",
+      "id": 1
+    },
+    {
+      "username": "zhangsan",
+      "nickName": "张三",
+      "password": "123456",
+      "mobile": "13012345678",
+      "gender": "1",
+      "id": 2
+    },
+    {
+      "username": "jerry",
+      "nickName": "杰瑞",
+      "password": "123",
+      "mobile": "18612348765",
+      "gender": "2",
+      "id": 3
+    },
+    {
+      "username": "林科路",
+      "nickName": "headshotdog",
+      "password": "1111",
+      "mobile": "1145141919810",
+      "gender": "2",
+      "id": 6
+    },
+    {
+      "username": "勾股定理",
+      "nickName": "gougu",
+      "password": "1111",
+      "mobile": "145141919810",
+      "gender": "1",
+      "id": 7
+    },
+    {
+      "username": "烈日松饼",
+      "nickName": "lierisongbi",
+      "password": "1111",
+      "mobile": "145141919810",
+      "gender": "2",
+      "id": 8
+    },
+    {
+      "username": "秋刀鱼",
+      "nickName": "readme",
+      "password": "1111",
+      "mobile": "145141919810",
+      "gender": "1",
+      "id": 9
+    },
+    {
+      "username": "豆沙",
+      "nickName": "kill",
+      "password": "1111",
+      "mobile": "145141919810",
+      "gender": "2",
+      "id": 10
+    },
+    {
+      "username": "游鱼",
+      "nickName": "ayouyuey",
+      "password": "1145",
+      "mobile": "145141919810",
+      "gender": "3",
+      "id": 11
+    },
+    {
+      "username": "艾雅法拉",
+      "nickName": "eyjafilla",
+      "password": "1018",
+      "mobile": "145141919810",
+      "gender": "2",
+      "id": 12
+    },
+    {
+      "username": "原神",
+      "nickName": "神里绫华",
+      "password": "1111",
+      "mobile": "145141919810",
+      "gender": "1",
+      "id": 13
+    }
+  ],
+  "courses": [
+    {
+      "courseName": "前端VUE培训及工程化管理",
+      "direction": "软件开发",
+      "post": "网络工程师",
+      "mode": "直播",
+      "mainImg": "f3fb1dcd-5e9b-4cca-b759-b9cb6ed3b426.png",
+      "hours": "20",
+      "startDate": "2024-07-01",
+      "tag": "优惠,名师,王森",
+      "intro": "Vue.js是一个用来开发web界面的前端框架，小巧的外表、优雅的代码结构和全新的MVVM理念，很快受到了众多前端工程师追捧的新宠。本课程将带你掌握vue的语法结构、单向数据流、数据的双向绑定，数据交互、动画、路由等内容。",
+      "price": "114",
+      "teacherName": "王森老师",
+      "teacherIntro": "王老师是一位经验丰富、技术精湛的前端名师，他为我国IT行业培养了大量优秀人才。我们应该向王老师学习，努力成为一名优秀的IT人才。",
+      "description": [
+        "b3babf72-7dcc-44de-b6a1-3b2cc4d626e7.png",
+        "b069f5fe-2338-40af-877c-bfa517c4640a.png"
+      ],
+      "sortNum": 1,
+      "status": "1",
+      "id": 1
+    },
+    {
+      "courseName": "软考高级-信息系统项目管理师",
+      "direction": "软件开发",
+      "post": "网络工程师",
+      "mode": "直播",
+      "mainImg": "2893c680-a5ac-4306-ad16-ac71eda34581.png",
+      "hours": "80",
+      "startDate": "2024-12-28",
+      "tag": "优惠,周末班,全国",
+      "intro": "信息系统项目管理师是软考高级认证考试之一，主要面向从事信息系统项目管理的高级管理人员、\n高级项目经理等。考核内容包括：信息系统项目管理知识和方法，项目整体绩效评估方法：常用项目管\n理工具，信息系统相关法律法规、技术标准与规范。",
+      "price": "1919",
+      "teacherName": "寇翔淋",
+      "teacherIntro": "寇翔淋老师，高级工程师，十多年的IT项目经验及项目管理经验，多年企业信息化建设经验，拥有国营企业、外资企业（海外工作经历）、上市公司、创业公司的丰富经历，从事制造业、银行证券、政务、税务、民政系统项目的信息系统的设计和研发工作，在信息系统设计、研发、信息安全、项目管理、团队管理、企业体系建设方面丰富的经验。",
+      "description": [
+        "e43e07ed-ec7e-42fc-8339-5e2ff1a2f47d.png",
+        "40ef8aae-c1df-42c8-bfee-5c7397943c36.png",
+        "d08175a7-a1c0-4407-b121-808e9ede1167.png"
+      ],
+      "sortNum": 3,
+      "status": "1",
+      "id": 2
+    },
+    {
+      "courseName": "前端新版Vue2+Vue3基础入门到实战",
+      "direction": "软件开发",
+      "post": "安全工程师",
+      "mode": "直播",
+      "hours": "11",
+      "startDate": "2024-07-09",
+      "tag": "免费,黑马出品",
+      "intro": "Vue2.x +Vue3.x + 实战项目，一套视频教程全覆盖，用最短学习路径，从入门到实战！快速掌握企业级开发实战能力！",
+      "price": "0",
+      "teacherName": "黑马程序员",
+      "teacherIntro": "黑马程序员是传智教育旗下高端IT教育品牌，是一家以就业为导向，培养IT科技人才的职业教育机构，母公司传智教育是中国教育行业A股IPO第一股上市企业（股票代码003032），拥有超强实力。                                                                                                \n黑马程序员以高品质教研和教学赢得业界及老学员的好口碑，是国内公认口碑最好的IT教育培训机构，累计培养IT人才30万+，其中每入学10名学员有7名来自老学员推荐。现已开设JavaEE、前端、鸿蒙应用开发、Python、大数据、人工智能、软件测试、产品经理、电商视觉设计、新媒体、机器人与IC等10余个精品学科，17所自营分校遍布全国。",
+      "description": [
+        "6ac61213-8acb-457d-86b9-2b6744c44c3e.png"
+      ],
+      "sortNum": 5,
+      "status": "1",
+      "id": 3,
+      "mainImg": "e704dc44-a79e-472e-b6b9-28e0b7eb3a4d.jpg"
+    },
+    {
+      "courseName": "CISP注册信息安全专业人员",
+      "direction": "IT管理",
+      "post": "安全工程师",
+      "mode": "录播",
+      "mainImg": "main.png",
+      "hours": "培训课时：39",
+      "startDate": "2024-08-10",
+      "tag": "周末班,全国",
+      "intro": "CISP注册信息安全专业人员课程的简介，啊哈哈哈发独守空房第三方惹我惹我若无品鉴会国培计划几乎隔家大萨达是多少",
+      "price": "514",
+      "teacherName": "张三丰",
+      "teacherIntro": "幽默、生动，层次感强，结构清晰，深入浅出，语言风格沉稳和收敛；在 PMP®考前培训的辅导方面具有独到的方法，积 累了大量的授课经验，授课学员一次通过 PMP®率达到90%以上。多年的运营商技术外包服务经历及央企和银行信息化项 目现场感悟，增加了授课的效度和信度；体验式授课方式，讲求“认知——思维——行动”的体验式教学法，“传递思想，以事说理”，用身边的实例让学员体会并思考，感悟而收获。",
+      "description": [
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png",
+        "10.png",
+        "11.png",
+        "12.png",
+        "13.png"
+      ],
+      "sortNum": 2,
+      "status": "1",
+      "id": 4
+    },
+    {
+      "courseName": "仓颉语言入门教程",
+      "direction": "软件开发",
+      "post": "开发工程师",
+      "mode": "录播",
+      "mainImg": "c3982624-38b9-413b-a989-c7b0f8480bbd.png",
+      "hours": "16",
+      "startDate": "2024-06-22",
+      "tag": "免费,华为,仓颉",
+      "intro": "屏幕前的小伙伴们，你们好！欢迎您走进仓颉编程语言的世界，本教程将带您体验仓颉、学习仓颉、应用仓颉。\n在本教程中，您将看到如何用仓颉语言估算圆周率、计算 2024 年各月的干支纪法，看到二叉树在仓颉语言中的 N 种表达方式，以及用枚举类型实现代数计算，用接口和扩展实现信号系统模拟，还有用仓颉宏扩展出新语法...\n\n现在，就让我们开启仓颉编程语言的探索之旅吧！",
+      "price": "0",
+      "teacherName": "刘俊杰",
+      "teacherIntro": "刘俊杰，仓颉编程语言布道师",
+      "description": [
+        "98626d5e-3eb5-4f96-8f93-9ec5ba07ede1.png",
+        "981aab6d-3f24-409a-b670-26d9831ef4d8.png",
+        "bc75a860-56c6-44e1-9be5-c81c96229547.png",
+        "d80f6d99-9cf5-4d26-9eec-4200c12b839e.png",
+        "635d1ab3-203f-421e-b94f-9c90ba4e6d80.png",
+        "0330c416-12d7-4488-a4bd-bb588fbd3157.png",
+        "f1d9e241-b5d8-4406-a895-15dc8a273661.png",
+        "3b55a734-e1f1-4ea5-b8d6-3385faede99b.png",
+        "efca9cc0-63e5-4c22-ab73-d7aa82a1acc4.png"
+      ],
+      "sortNum": 7,
+      "status": "1",
+      "id": 5
+    },
+    {
+      "courseName": "Python web开发",
+      "direction": "软件开发",
+      "post": "开发工程师",
+      "mode": "面授",
+      "mainImg": "8fb2bab0-e46b-457e-8a90-7915788ec9e2.png",
+      "hours": "40",
+      "startDate": "2024-08-01",
+      "tag": "优惠",
+      "intro": "Python web开发课程的简介，如果使用python进行web开发...",
+      "price": "1800",
+      "teacherName": "梁鹏",
+      "teacherIntro": "华为大数据认证专家，全球首位华为人工智能认证专家，现任东方瑞通开发方向教研总监&专家级讲师。具有10年软件从业经验,曾任花旗银行工程师,学通天下技术架构师,参与并主导仓储物流供应链OMS系统，WMS系统，TMS系统，BMS系统平台的研发。年均150天企业内训经验，项目开发实战派讲师。",
+      "description": [
+        "83bca5ab-460a-465e-8f45-bd54d387672e.png",
+        "88e5e365-0450-4e42-b674-3836b16dc2a3.png",
+        "d6d168de-1c45-4d01-ab1d-4b9ba180475a.png",
+        "576f42c7-ce4d-44f8-bb02-fbea4419fbbe.png"
+      ],
+      "sortNum": 6,
+      "status": "1",
+      "id": 6
+    },
+    {
+      "courseName": "智能物联网+嵌入式",
+      "direction": "项目管理",
+      "post": "开发工程师",
+      "mode": "录播",
+      "mainImg": "62efa4e3-2df4-4d3d-bd30-5153e4f6f55e.png",
+      "hours": "64",
+      "startDate": "2024-08-20",
+      "intro": "嵌入式物联网系统是当前具有发展前景的IT应用领域之一， 嵌入式作为物联网的底层技术体系，不仅助力物联网从各行各业脱颖而出，还在各类专用设备及众多消费电子产品中广泛应用，通常这些设备的软硬件资源非常有限，对成本、体积、功耗、响应、可靠性都有严格要求。特别是随着消费电子的智能化、传统产业升级、万物互联互通的兴起，嵌入式物联网在其中的地位尤其重要。",
+      "price": "810",
+      "teacherName": "千锋教育",
+      "teacherIntro": "北京千锋互联科技有限公司（下面简称“千锋教育”），成立于2011年1月，立足于职业教育培训领域，公司现有教育培训、高校服务、企业服务三大业务板块。 教育培训业务分为大学生技能培训和职后技能培训；高校服务业务主要提供校企合作全解决方案与定制服务；企业服务业务主要为企业提供专业化综合服务。",
+      "description": [
+        "cb14d586-b03d-499e-9c5f-6f6dd52a8f94.png",
+        "3d92c1f4-e5dd-426f-968f-5170162af07f.png",
+        "3084e38b-69e3-45ef-8251-4c23c1d15b34.png"
+      ],
+      "sortNum": 4,
+      "status": "1",
+      "id": 7,
+      "tag": "物联网"
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "chapterName": "Vuejs基础",
+      "description": "基础语法",
+      "sortNum": 1,
+      "courseId": 1,
+      "uploadUrl": "cd1033b8-a9e6-4d74-aa35-0a09541c3a5c.mp4"
+    },
+    {
+      "id": 2,
+      "chapterName": "Vuejs组件",
+      "description": "组件组件组件",
+      "sortNum": 2,
+      "courseId": 1
+    },
+    {
+      "id": 3,
+      "chapterName": "Vuejs路由",
+      "description": "路由路由路由",
+      "sortNum": 3,
+      "courseId": 1
+    },
+    {
+      "id": 4,
+      "chapterName": "Nodejs",
+      "description": "js开发环境",
+      "sortNum": 4,
+      "courseId": 1
+    },
+    {
+      "id": 5,
+      "chapterName": "SPA",
+      "description": "单页面应用程序",
+      "sortNum": 5,
+      "courseId": 1
+    },
+    {
+      "id": 6,
+      "chapterName": "UI",
+      "description": "ElementUI",
+      "sortNum": 6,
+      "courseId": 1
+    },
+    {
+      "id": 7,
+      "chapterName": "第一章CISP认证介绍",
+      "description": "CISP认证介绍",
+      "sortNum": 1,
+      "courseId": 4
+    },
+    {
+      "id": 8,
+      "chapterName": "第二章信息安全保障基础",
+      "description": "信息安全保障基础",
+      "sortNum": 2,
+      "courseId": 4
+    },
+    {
+      "id": 9,
+      "chapterName": "第三章信息安全保障框架模型",
+      "description": "信息安全保障框架模型",
+      "sortNum": 3,
+      "courseId": 4
+    },
+    {
+      "id": 10,
+      "chapterName": "第四章信息安全保障评估框架",
+      "description": "信息安全保障评估框架",
+      "sortNum": 4,
+      "courseId": 4
+    },
+    {
+      "id": 11,
+      "chapterName": "第五章网络安全防护技术",
+      "description": "网络安全防护技术",
+      "sortNum": 5,
+      "courseId": 4
+    },
+    {
+      "id": 12,
+      "chapterName": "第六章信息安全管理",
+      "description": "信息安全管理",
+      "sortNum": 6,
+      "courseId": 4
+    },
+    {
+      "id": 13,
+      "chapterName": "第七章5G安全标准与框架",
+      "description": "5G安全标准与框架",
+      "sortNum": 7,
+      "courseId": 4
+    },
+    {
+      "id": 14,
+      "chapterName": "第八章信息安全管理",
+      "description": "信息安全管理",
+      "sortNum": 8,
+      "courseId": 4
+    },
+    {
+      "id": 15,
+      "chapterName": "第九章安全评估实施",
+      "description": "安全评估实施",
+      "sortNum": 9,
+      "courseId": 4
+    },
+    {
+      "chapterName": "一、基本概念",
+      "description": "一、基本概念",
+      "sortNum": 1,
+      "courseId": 5,
+      "id": 16
+    },
+    {
+      "chapterName": "二、函数",
+      "description": "二、函数\n",
+      "sortNum": 1,
+      "courseId": 5,
+      "id": 17
+    },
+    {
+      "chapterName": "三、枚举",
+      "description": "三、枚举\n",
+      "sortNum": 1,
+      "courseId": 5,
+      "id": 18
+    },
+    {
+      "chapterName": "第一章HELLO WORLD",
+      "description": "第一章HELLO WORLD",
+      "sortNum": 1,
+      "courseId": 6,
+      "id": 19
+    },
+    {
+      "chapterName": "第二章学生宿舍",
+      "description": "第二章学生宿舍",
+      "sortNum": 2,
+      "courseId": 6,
+      "id": 20
+    },
+    {
+      "chapterName": "第三章佛挡杀佛三大",
+      "description": "第三章佛挡杀佛三大",
+      "sortNum": 3,
+      "courseId": 6,
+      "id": 21
+    },
+    {
+      "chapterName": "第四章发达省份的",
+      "description": "第四章发达省份的",
+      "sortNum": 4,
+      "courseId": 6,
+      "id": 22
+    },
+    {
+      "chapterName": "1.1 信息与信息化",
+      "sortNum": 1,
+      "courseId": 2,
+      "id": 23
+    },
+    {
+      "chapterName": "1.2 信息技术及其发展",
+      "sortNum": 2,
+      "courseId": 2,
+      "id": 24
+    },
+    {
+      "chapterName": "1.3 IT治理",
+      "sortNum": 3,
+      "courseId": 2,
+      "id": 25
+    },
+    {
+      "chapterName": "1.4 项目沟通管理",
+      "sortNum": 4,
+      "courseId": 2,
+      "id": 26
+    },
+    {
+      "chapterName": "1.5 实施质量保证",
+      "sortNum": 5,
+      "courseId": 2,
+      "id": 27
+    },
+    {
+      "chapterName": "四、结构体",
+      "description": "四、结构体\n",
+      "sortNum": 1,
+      "courseId": 5,
+      "id": 28
+    },
+    {
+      "chapterName": "五、类",
+      "description": "五、类\n",
+      "sortNum": 1,
+      "courseId": 5,
+      "id": 29
+    },
+    {
+      "chapterName": "六、接口与扩展",
+      "description": "六、接口与扩展",
+      "sortNum": 1,
+      "courseId": 5,
+      "id": 30
+    },
+    {
+      "chapterName": "七、异常处理",
+      "description": "七、异常处理\n",
+      "sortNum": 1,
+      "courseId": 5,
+      "id": 31
+    },
+    {
+      "chapterName": "八、并发编程",
+      "description": "八、并发编程\n",
+      "sortNum": 1,
+      "courseId": 5,
+      "id": 32
+    },
+    {
+      "chapterName": "九、跨语言互操作",
+      "description": "九、跨语言互操作",
+      "sortNum": 1,
+      "courseId": 5,
+      "id": 33
+    },
+    {
+      "chapterName": "十、宏",
+      "description": "十、宏\n",
+      "sortNum": 1,
+      "courseId": 5,
+      "id": 34
+    },
+    {
+      "chapterName": "1-Vue2+3入门到实战导学",
+      "description": "1-Vue2+3入门到实战导学视频",
+      "sortNum": 1,
+      "courseId": 3,
+      "id": 35
+    },
+    {
+      "chapterName": "2-第一天课程介绍",
+      "description": "2-第一天课程介绍",
+      "sortNum": 1,
+      "courseId": 3,
+      "id": 36
+    },
+    {
+      "chapterName": "3-Vue是什么",
+      "description": "3-Vue是什么",
+      "sortNum": 1,
+      "courseId": 3,
+      "id": 37
+    },
+    {
+      "chapterName": "4-创建一个Vue实例",
+      "description": "4-创建一个Vue实例",
+      "sortNum": 1,
+      "courseId": 3,
+      "id": 38
+    },
+    {
+      "chapterName": "5-插值表达式",
+      "description": "5-插值表达式",
+      "sortNum": 1,
+      "courseId": 3,
+      "id": 39
+    },
+    {
+      "chapterName": "6-Vue响应式特性",
+      "description": "6-Vue响应式特性",
+      "sortNum": 1,
+      "courseId": 3,
+      "id": 40
+    },
+    {
+      "chapterName": "7-开发者工具安装",
+      "description": "7-开发者工具安装",
+      "sortNum": 1,
+      "courseId": 3,
+      "id": 41
+    },
+    {
+      "chapterName": "8-指令初识和v-html",
+      "description": "8-指令初识和v-html",
+      "sortNum": 1,
+      "courseId": 3,
+      "id": 42
+    },
+    {
+      "chapterName": "后续章节正在制作中，敬请期待。",
+      "description": "后续章节正在制作中，敬请期待",
+      "sortNum": 1,
+      "courseId": 3,
+      "id": 43
+    },
+    {
+      "chapterName": "1、ZigBee 无线网络技术",
+      "sortNum": 1,
+      "courseId": 7,
+      "id": 44
+    },
+    {
+      "chapterName": "2、NB-IOT窄带物联网技术",
+      "sortNum": 1,
+      "courseId": 7,
+      "id": 45
+    },
+    {
+      "chapterName": "3、Bluetooth定位技术",
+      "sortNum": 1,
+      "courseId": 7,
+      "id": 46
+    },
+    {
+      "chapterName": "4、WIFI 技术",
+      "sortNum": 1,
+      "courseId": 7,
+      "id": 47
+    },
+    {
+      "chapterName": "5、MQTT 通信协议",
+      "sortNum": 1,
+      "courseId": 7,
+      "id": 48
+    }
+  ]
+}

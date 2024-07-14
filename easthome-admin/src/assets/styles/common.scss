@@ -1,0 +1,34 @@
+@import url(./custom-cursor.scss);
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+#app {
+    background: #ffffff;
+  }
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+// 自定义Select组件
+.el-popover {
+  &.custom-select-popover {
+    padding: 6px 0 !important;
+    margin: 0;
+    box-sizing: border-box;
+  }
+}
