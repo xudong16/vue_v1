@@ -47,7 +47,7 @@ export default {
 <style scoped>
 .static-banner-center {
     margin-bottom: 32px;
-    padding-top: 14px;
+    padding-top: 40px;
     display: flex;
     margin: 0 auto;
     position: relative;
@@ -57,6 +57,7 @@ export default {
 .course-classifiy {
     width: 276px;
     border-radius: 8px;
+    background: #ffffff;
 }
 
 .course-classifiy-name {
@@ -105,6 +106,7 @@ export default {
     width: 276px;
     border-radius: 8px;
     text-align: center;
+    background-color: #ffffff;
 }
 
 .new-user-hint {

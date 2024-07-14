@@ -70,7 +70,7 @@ export default {
 
 .header-one,
 .header {
-    background-color: #fff;
+    background-color: #8df2ef;
     height: 108px;
     padding: 10px 0 0;
     z-index: 100;
@@ -101,6 +101,7 @@ export default {
     border-radius: 8px;
     height: 40px;
     margin: 0 0 0 213px;
+    background-color:#ffffff;
     position: relative;
     width: 440px;
 }
@@ -108,6 +109,7 @@ export default {
 .headerTopMid /deep/ .el-input__inner {
     border: 0;
     width: 100%;
+    background-color:#ffffff;
 }
 
 .el-input--medium /deep/ .el-input__inner {
@@ -129,12 +131,14 @@ export default {
 .headerTopInput {
     margin-left: 20px;
     width: 360px;
+    color: #000;
+    
 }
 
 .blue-enter-search {
-    background-color: #05f;
+    background-color: #e6e6e6;
     border-radius: 8px;
-    color: #fff;
+    color: #000000;
     cursor: pointer;
     height: 32px;
     line-height: 32px;
