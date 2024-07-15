@@ -182,7 +182,7 @@
         "13.png"
       ],
       "sortNum": 2,
-      "status": "0",
+      "status": "1",
       "id": 4
     },
     {
@@ -257,22 +257,6 @@
       "status": "1",
       "id": 7,
       "tag": "物联网"
-    },
-    {
-      "courseName": "test",
-      "direction": "IT管理",
-      "post": "技术经理",
-      "mode": "录播",
-      "hours": "3",
-      "startDate": "2024-07-22",
-      "intro": "1111",
-      "price": "1111",
-      "teacherName": "1111",
-      "teacherIntro": "1111",
-      "description": [],
-      "sortNum": 1,
-      "status": 0,
-      "id": 8
     }
   ],
   "chapters": [
